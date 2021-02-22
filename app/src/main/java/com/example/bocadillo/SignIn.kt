@@ -29,7 +29,8 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
     private lateinit var auth: FirebaseAuth
     private lateinit var googleSignInClient: GoogleSignInClient
 
-    /**
+    /**a
+     *
      * On create
      * Establece el onClickListener a los botones y muestra el layout activity_sign_in.
      *
