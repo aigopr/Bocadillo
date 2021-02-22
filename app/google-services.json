@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "401884502391",
+    "project_id": "bocadillo-5c45b",
+    "storage_bucket": "bocadillo-5c45b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401884502391:android:9a1a039f0c32a5d034e972",
+        "android_client_info": {
+          "package_name": "com.example.bocadillo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401884502391-mdjg0i56e4b84ohffo8648ok13bjokm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLRqo3ikyEF425Y5zNnkyQJg_OCFcPq4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401884502391-mdjg0i56e4b84ohffo8648ok13bjokm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

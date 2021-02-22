@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnLogInGoogle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="151dp"
+        android:layout_height="149dp"
+        android:contentDescription="@string/icon_bocadillo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.091"
+        app:srcCompat="@drawable/icon_bocadillo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="195dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginRight="108dp"
+        android:text="@string/bocadillo"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="364dp"
+        app:cardBackgroundColor="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.809">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_login_user"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+            <ImageView
+                android:id="@+id/img_user"
+                android:layout_width="49dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/icon_user"
+                app:srcCompat="@drawable/user" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_input_User"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:background="#FFFFFF"
+                android:hint="@string/usuario" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_login_pass"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            app:cardBackgroundColor="@android:color/darker_gray">
+
+            <ImageView
+                android:id="@+id/img_pass"
+                android:layout_width="49dp"
+                android:layout_height="50dp"
+                android:contentDescription="@string/icon_user"
+                app:srcCompat="@drawable/pass" />
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/login_input_Pass"
+                android:inputType="textPassword"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:background="#FFFFFF"
+                android:hint="@string/contrase_a" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/btnLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/iniciar_sesi_n" />
+
+        <Button
+            android:id="@+id/btnLogIn_Google"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="@string/acceder_con_google"
+            android:textColor="@color/purple_500"
+            app:backgroundTint="@android:color/white"
+            app:iconTint="@color/purple_500" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:text="@string/reg_strate"
+            android:textColor="@color/purple_500"
+            app:backgroundTint="@android:color/white"
+            app:iconTint="@color/purple_500" />
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="140dp"
+            android:text="@string/has_olvidado_tu_contrase_a" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
