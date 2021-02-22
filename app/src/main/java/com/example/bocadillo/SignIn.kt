@@ -49,7 +49,7 @@ class SignIn : AppCompatActivity(), View.OnClickListener {
         // Google sign in
         googleSignInClient = GoogleSignIn.getClient(this, gso)
 
-        // Botones
+        // Asignamos las vistas a los botones
         val btnSignIn: Button = findViewById<Button>(R.id.btnsignin_new)
         val btnSignInGoogle: Button = findViewById<Button>(R.id.btnsignin_google)
 
